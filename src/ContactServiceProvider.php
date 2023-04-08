@@ -11,7 +11,6 @@ class ContactServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
         $this->loadViewsFrom(__DIR__ . '/views', 'contact');
-        $this->mergeConfigFrom(__DIR__ . '/config/acacontact.php', 'contact');
     }
     public function register()
     {
