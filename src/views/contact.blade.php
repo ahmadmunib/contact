@@ -18,10 +18,10 @@
     </form>
     {{-- to check if the $data exist --}}
     @if (isset($data))
-        <div class="form-element"><input type="text" name="name" placeholder="Name" value="{{ $data['name'] }}"></div>
-        <div class="form-element"><input type="email" name="email" placeholder="Email" value="{{ $data['email'] }}"></div>
-        <div class="form-element"><input type="text" name="subject" placeholder="Subject" value="{{ $data['subject'] }}"></div>
-        <div class="form-element"><textarea name="message" id="" cols="30" rows="10" placeholder="Message">{{ $data['message'] }}</textarea></div>
+        <p>{{ $data['name'] }}</p>
+        <p>{{ $data['email'] }}</p>
+        <p>{{ $data['subject'] }}</p>
+        <p>{{ $data['message'] }}</p>
     @endif
     
 </body>
