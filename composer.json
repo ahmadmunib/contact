@@ -1,0 +1,28 @@
+{
+    "name": "acaothman/contact",
+    "description": "this will send email to admin and save contact query in DB",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Acaothman\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmad Munib",
+            "email": "ahmedmunib85@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+         "php": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Acaothman\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
