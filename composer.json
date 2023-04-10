@@ -24,5 +24,11 @@
                 "Acaothman\\Contact\\ContactServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php ./vendor/acaothman/contact/install.php"
+        ]
     }
+    
 }
