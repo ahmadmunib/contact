@@ -23,6 +23,10 @@
             "providers": [
                 "Acaothman\\Contact\\ContactServiceProvider"
             ]
+        },
+        "contact-url": {
+            "question": "What URL do you want to use to view the contact page? (default: /contact)",
+            "default": "/contact"
         }
     },
     "scripts": {
